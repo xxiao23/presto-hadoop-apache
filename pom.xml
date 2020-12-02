@@ -322,6 +322,12 @@
             <version>${dep.hadoop.version}</version>
         </dependency>
 
+        <dependency>
+            <groupId>org.apache.hadoop</groupId>
+            <artifactId>hadoop-aliyun</artifactId>
+            <version>3.3.0</version>
+        </dependency>
+
         <!-- discard all logging from Hadoop -->
         <dependency>
             <groupId>org.slf4j</groupId>
